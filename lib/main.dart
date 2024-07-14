@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirtyconcepts/widgets/bottomnavigationbar.dart';
+import 'package:thirtyconcepts/widgets/dropdown.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.light, primaryColor: Colors.deepPurple),
-      home: const BottomNavigationBarWidget(),
+      home: const DropDownWidget(),
+      //const BottomNavigationBarWidget(),
       // const AnimatedText(),
       //const BottomSheetWidget(),
       //const AlertDialogWidget(),
