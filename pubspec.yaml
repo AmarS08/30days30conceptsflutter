@@ -38,7 +38,8 @@ dependencies:
   cached_network_image:
   animated_text_kit:
   image_picker: ^1.1.2
-
+  geolocator:
+  fluttertoast:
 dev_dependencies:
   flutter_test:
     sdk: flutter
