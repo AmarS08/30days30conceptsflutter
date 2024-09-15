@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:thirtyconcepts/widgets/imagepicker.dart';
+import 'package:thirtyconcepts/widgets/day20ui.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,9 +12,15 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      title: 'Flutter 30 Widgets',
       theme: ThemeData(
-          brightness: Brightness.light, primaryColor: Colors.deepPurple),
-      home: const ImagePickerPackage(),
+        brightness: Brightness.light,
+        primarySwatch: Colors.deepPurple,
+      ),
+      home: const Day20UI(),
+      //const Day19UI(),
+      //const LocationFinderPackage(),
+      //const ImagePickerPackage(),
       //const TabBarWidget(),
       //const StackPositionedWidget(),
       //const Forms(),
