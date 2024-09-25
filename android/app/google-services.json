@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79026963147",
+    "project_id": "thirtydaysthirtyconcepts",
+    "storage_bucket": "thirtydaysthirtyconcepts.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79026963147:android:14a137d0fd7a8776c3514e",
+        "android_client_info": {
+          "package_name": "com.ravanao2.thirtyconcepts"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZTJpOXZZLyIp911cazbWlkSvGhVQBmQk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
